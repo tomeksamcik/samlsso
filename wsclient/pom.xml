@@ -71,11 +71,13 @@
 
    <dependencies>
       
+        <!-- 
 		<dependency>
 			<groupId>org.jboss.logging</groupId>
 			<artifactId>jboss-logging</artifactId>
 			<version>3.3.0.GA</version>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>javax.security.jacc</groupId>
 			<artifactId>javax.security.jacc-api</artifactId>
