@@ -12,12 +12,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-   <groupId>org.jboss.as.quickstarts</groupId>
-   <artifactId>jboss-as-helloworld-rs</artifactId>
-   <version>7.1.2-SNAPSHOT</version>
+   <groupId>samlsso</groupId>
+   <artifactId>wsserver</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
    <packaging>war</packaging>
-   <name>JBoss AS Quickstarts: JAX-RS Helloworld</name>
-   <description>JBoss AS Quickstarts: Helloworld using JAX-RS</description>
+   <name>EJB SAML Secured Web Service</name>
 
    <url>http://jboss.org/jbossas</url>
    <licenses>
