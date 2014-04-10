@@ -21,11 +21,11 @@ import org.w3c.dom.Element;
 
 public class Run {
 	
-    private static String username = "tomcat";  
-    private static String password = "tomcat";
+    //private static String username = "tomcat";  
+    //private static String password = "tomcat";
     
-	//private static String username = "UserA";
-    //private static String password = "PassA";
+	private static String username = "UserA";
+    private static String password = "PassA";
     
     public static void printAssertion(Element assertion) throws Exception  {  
        TransformerFactory tranFactory = TransformerFactory.newInstance();  
