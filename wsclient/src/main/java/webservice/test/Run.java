@@ -37,7 +37,7 @@ public class Run {
 
 	public static void main(String[] args) throws Exception {
         WSTrustClient client = new WSTrustClient("PicketLinkSTS", "PicketLinkSTSPort",  
-                "http://127.0.0.1:8080/picketlink-sts/PicketLinkSTS",  
+                "http://vps50444.ovh.net:8080/picketlink-sts/PicketLinkSTS",  
                 new SecurityInfo(username, password));  
         System.out.println("Invoking token service to get SAML assertion for " + username);  
         final Element assertion = client.issueToken(SAMLUtil.SAML2_TOKEN_TYPE);
